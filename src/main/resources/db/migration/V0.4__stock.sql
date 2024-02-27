@@ -1,2 +1,4 @@
 ALTER TABLE money_accounts
-ADD COLUMN linked_account_code VARCHAR NOT NULL
+ADD COLUMN linked_account_code VARCHAR NOT NULL,
+ADD COLUMN created_when TIMESTAMP NOT NULL,
+ADD COLUMN modified_when TIMESTAMP NOT NULL;
