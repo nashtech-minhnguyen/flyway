@@ -1,0 +1,1 @@
+ALTER TABLE money_accounts ADD CONSTRAINT account_code_unique UNIQUE (linked_account_code);
